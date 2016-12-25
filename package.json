@@ -1,8 +1,15 @@
 {
-  "name": "babel",
+  "name": "babel-starter",
   "version": "1.0.0",
-  "description": "",
+  "description": "一个可以自由使用 es2015/es7 的 CommonJS 环境",
   "main": "build/index.js",
+  "keywords": [
+    "babel",
+    "es2015",
+    "es6",
+    "es7",
+    "CommonJs"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/8881/babel-starter.git"
