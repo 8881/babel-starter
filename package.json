@@ -1,0 +1,24 @@
+{
+  "name": "babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/8881/babel-starter.git"
+  },
+  "scripts": {
+    "clean": "rm -rf build",
+    "start": "babel-node ./src/index.js",
+    "dev": "npm run clean && babel ./src --out-dir ./build --watch",
+    "build": "npm run clean && babel ./src --out-dir ./build"
+  },
+  "author": "8881",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0"
+  }
+}
